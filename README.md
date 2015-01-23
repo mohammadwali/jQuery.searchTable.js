@@ -4,12 +4,12 @@ Create a search in a datatable or any custom table. With this plugin you can sea
 
 ## Install
 Include jQuery (If not included) and src file
-```
+```html
 <script type='text/javascipt' src='js/jQuery.js'></script>
 <script type='text/javascipt' src='js/jQuery.searchTable.js'></script>
 ```
 And finally call the plugin with the search query
-```
+```javascript
 $("#mytable").searchTable({
         query: searchQuery
         //.. add your sutiable options :)
